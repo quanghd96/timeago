@@ -15,7 +15,14 @@ Simple java library for displaying dates as relative time ago language.
 ## Usage:
 
 ### Import as a dependency:
-
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 ```
 implementation 'com.github.quanghd96:timeago:5.0.0'
 ```
