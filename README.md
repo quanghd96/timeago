@@ -8,14 +8,11 @@ Simple java library for displaying dates as relative time ago language.
 - a minute ago
 - just now
 
-![Alt text](ta_screenshots/Screenshot_1595386202.png?raw=true "Image 1")
-![Alt text](ta_screenshots/Screenshot_1595386206.png?raw=true "Image 2")
+<img src="ta_screenshots/Screenshot_1595386202.png" width="250">   <img src="ta_screenshots/Screenshot_1595386206.png" width="250">
 
 ## Usage:
 
 ### Import as a dependency:
-
-Gradle:
 
 ```
 implementation 'com.github.marlonlom:timeago:$latestVersion'
@@ -52,7 +49,7 @@ Languages supported: Vietnamese (vi), English (en), Spanish (es), Dutch (nl), Ge
 ### License
 
 ```
-Copyright 2016 marlonlom
+Copyright 2016
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
