@@ -1,5 +1,7 @@
 # TimeAgo
- 
+
+[![](https://jitpack.io/v/quanghd96/timeago.svg)](https://jitpack.io/#quanghd96/timeago)
+
 Simple java library for displaying dates as relative time ago language.
 
 ## Examples:
@@ -15,7 +17,7 @@ Simple java library for displaying dates as relative time ago language.
 ### Import as a dependency:
 
 ```
-implementation 'com.github.marlonlom:timeago:$latestVersion'
+implementation 'com.github.quanghd96:timeago:5.0.0'
 ```
 
 ### Use it in your code:
