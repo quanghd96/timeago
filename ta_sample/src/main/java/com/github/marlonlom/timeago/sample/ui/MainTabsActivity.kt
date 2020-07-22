@@ -29,6 +29,7 @@ import androidx.viewpager.widget.ViewPager
 import com.github.marlonlom.timeago.sample.R
 import com.github.marlonlom.timeago.sample.utils.CalendarSampleDataUtil
 import com.github.marlonlom.utilities.timeago.TimeAgo
+import com.github.marlonlom.utilities.timeago.TimeAgoMessages
 import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.activity_main_tabs.*
 import java.text.SimpleDateFormat
@@ -130,7 +131,7 @@ class MainTabsActivity : AppCompatActivity() {
                 val calendar = Calendar.getInstance()
                 calendar.timeInMillis = item
                 val formattedDate = sdf.format(calendar.time)
-                val resultText = TimeAgo.using(item)
+                val resultText = TimeAgo.using(item, TimeAgoMessages.Builder().withLocale(Locale.forLanguageTag("vi")).build())
                 builder1.append(String.format(tabDetailTpl, formattedDate, resultText))
             }
             val resId = if (isPast) R.string.tabbed_main_detail_from else R.string.tabbed_main_detail_until

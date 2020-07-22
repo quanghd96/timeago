@@ -38,7 +38,6 @@
         </i>
         <br><br>
         For specific language usage, use <b>TimeAgoMessages</b>.
-        <br><br><i>Languages supported</i>: Spanish (es), English (en), German (de), French (fr), Italian (it), Portuguese (pt).
         ]]>
     </string>
     <string name="tabbed_main_detail_from" formatted="false"><![CDATA[%s<br>]]></string>
